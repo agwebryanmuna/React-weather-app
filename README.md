@@ -1,54 +1,55 @@
-# React + TypeScript + Vite
+# Weather App ☀️🌧️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive weather dashboard that delivers real-time weather data and beautiful visualizations. Built with a focus on performance, user experience, and clean code, this project showcases my skills in full-stack web development and UI design.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Demo
 
-## Expanding the ESLint configuration
+[![Demo](https://img.shields.io/badge/Live%20Demo-Online-brightgreen?style=for-the-badge&logo=vercel)](https://react-weather-app-iota-jet.vercel.app)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## ✨ Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Real-time weather updates for any city
+- Interactive charts and data visualizations
+- Favorite locations management
+- Responsive, mobile-friendly design
+- Light/dark theme toggle
+- Smooth UI animations and transitions
+- Error handling and user feedback
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🛠️ Tech Stack
+
+- **Frontend:** React 19, TypeScript, Vite
+- **Styling:** Tailwind CSS, Lucide React Icons
+- **State/Data:** @tanstack/react-query, React Context
+- **Routing:** React Router
+- **Charts:** Recharts
+- **Utilities:** date-fns
+
+---
+
+## 📦 Key Libraries & Tools
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Radix UI](https://www.radix-ui.com/)
+- [@tanstack/react-query](https://tanstack.com/query/latest)
+- [Recharts](https://recharts.org/)
+- [React Router](https://reactrouter.com/)
+- [date-fns](https://date-fns.org/)
+- [Lucide React](https://lucide.dev/)
+
+---
+
+## 📖 How to Run Locally
+
+1. Clone the repo
+2. Install dependencies: `npm install`
+3. Start the dev server: `npm run dev`
+4. Open [http://localhost:5173](http://localhost:5173) in your browser
